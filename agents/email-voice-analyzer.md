@@ -7,7 +7,6 @@ description: >-
   reuse' / 'Extract my writing style from these emails so I can prompt an AI to
   write like me'
 mode: primary
-model: github-copilot/claude-opus-4.6
 variant: high
 permissions:
   edit: deny

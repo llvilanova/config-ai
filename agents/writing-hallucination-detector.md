@@ -9,7 +9,6 @@ description: >-
   - An AI-produced code explanation, technical summary, or research synthesis
   needs verification for accuracy and internal consistency
 mode: primary
-model: github-copilot/gemini-3.1-pro-preview
 variant: high
 permissions:
   edit: deny

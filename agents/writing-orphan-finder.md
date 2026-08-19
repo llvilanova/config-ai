@@ -9,7 +9,6 @@ description: >-
   - 'This paragraph ends with two words on the last line, rewrite it to fix
   that'
 mode: all
-model: github-copilot/claude-sonnet-4.6
 variant: default
 permissions:
   edit: deny

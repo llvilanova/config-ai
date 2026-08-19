@@ -10,7 +10,6 @@ description: >-
   - User provides a research paper and wants fast, deep structured comprehension
   with reviewer-level criticality
 mode: all
-model: github-copilot/claude-opus-4.6
 variant: high
 permissions:
   edit: allow

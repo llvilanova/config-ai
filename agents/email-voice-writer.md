@@ -10,7 +10,6 @@ description: >-
   - User has a rough draft and wants it refined to match their documented voice
   with scored compliance checks and revision loops
 mode: primary
-model: github-copilot/claude-sonnet-4.6
 variant: default
 permissions:
   edit: deny

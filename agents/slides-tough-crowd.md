@@ -8,7 +8,6 @@ description: >-
   - 'Give me a final check on this demo deck for cognitive load and narrative
   flow'
 mode: all
-model: github-copilot/claude-opus-4.6
 variant: high
 permissions:
   edit: deny

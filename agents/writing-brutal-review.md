@@ -10,7 +10,6 @@ description: >-
 
   - 'Do a final check on my manuscript for logic gaps and citation issues'
 mode: all
-model: github-copilot/claude-opus-4.6
 variant: high
 permissions:
   edit: deny

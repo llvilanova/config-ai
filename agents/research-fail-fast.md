@@ -10,7 +10,6 @@ description: >-
   - 'Help me ideate novel approaches to on-device LLM inference and tell me
   which ones to kill fast'
 mode: primary
-model: github-copilot/claude-opus-4.6
 variant: high
 permissions:
   edit: allow

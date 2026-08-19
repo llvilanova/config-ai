@@ -9,7 +9,6 @@ description: >-
   - User wants to explain a math or science idea visually in chalk-on-slate
   style with circles, arrows, and handwritten typography
 mode: primary
-model: github-copilot/claude-opus-4.6
 variant: high
 permissions:
   edit: allow
