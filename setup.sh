@@ -32,6 +32,9 @@ if [[ -d "$SCRIPT_DIR/skills" ]]; then
         [[ -d "$elem" ]] || continue
         name="$(basename "$elem")"
         link_dir "$elem" "$HOME/.agents/skills/$name"
+        if [[ -d "$HOME/.claude" ]]; then
+            link_dir "$elem" "$HOME/.claude/skills/$name"
+        fi
     done
 fi
 
@@ -41,7 +44,9 @@ if [[ -d "$SCRIPT_DIR/agents" ]]; then
         [[ -f "$elem" ]] || continue
         name="$(basename "$elem")"
         link_dir "$elem" "$HOME/.agents/agents/$name"
-
+        if [[ -d "$HOME/.claude" ]]; then
+            link_dir "$elem" "$HOME/.claude/agents/$name"
+        fi
         if [[ -d "$HOME/.config/opencode" ]]; then
             link_dir "$elem" "$HOME/.config/opencode/agents/$name"
         fi
